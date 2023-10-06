@@ -253,7 +253,6 @@ def b(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {
-    headers = {
     'authority': 'mbasic.facebook.com',
     'method': 'GET',
     'scheme': 'https',
