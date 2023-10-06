@@ -253,22 +253,19 @@ def b(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {
-    'authority': 'mbasic.facebook.com',
+    'authority': 'free.facebook.com',
     'method': 'GET',
     'scheme': 'https',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-GB,en;q=0.9,bn-BD;q=0.8,bn;q=0.7,en-US;q=0.6',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
+    'referer': 'https://mbasic.facebook.com/'
+    'sec-ch-prefers-color-scheme', 'light'
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"SM-J701F"',
     'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"9.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
+    'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': pro,
